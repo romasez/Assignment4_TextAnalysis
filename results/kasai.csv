@@ -1,0 +1,4 @@
+algorithm,input_size,avg_ms,runs,lcp_length
+Kasai,1000,0.1604458,5,1000
+Kasai,5000,0.2165968,5,5000
+Kasai,10000,0.4352388,5,10000

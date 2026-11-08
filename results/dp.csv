@@ -1,0 +1,7 @@
+algorithm,input_size,avg_ms,runs,cell_updates
+LCS,100,0.799786,5,10000
+Edit Distance,100,1.143836,5,10000
+LCS,500,3.3739504,5,250000
+Edit Distance,500,7.1777834,5,250000
+LCS,1000,2.037136,5,1000000
+Edit Distance,1000,3.5303416,5,1000000
