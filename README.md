@@ -1,5 +1,8 @@
 # Assignment 4 — Text Analysis: Dynamic Programming and String Algorithms
 
+Name : Sailau Ramazan
+Group : SE - 2539
+
 Java application implementing and experimentally comparing **five required algorithms**: Longest Common Subsequence (LCS), Levenshtein edit distance, Naive string matching, Knuth–Morris–Pratt (KMP), Rabin–Karp, and additionally **Kasai’s algorithm** for the longest-common-prefix (LCP) array (six named implementations in total). This README is the full assignment report, not a separate PDF.
 
 ## 1. Problem and algorithm overview
@@ -188,10 +191,3 @@ Run `./run.sh test` to execute assertions independent of JVM `-ea`. The test sui
 ## 9. Conclusion
 
 Full-table LCS and Levenshtein are straightforward and provably correct but have quadratic memory usage, which is a limiting factor for large strings. Naive matching is simplest and often adequate for small patterns; KMP offers strong **worst-case** guarantees at the cost of an LPS table; Rabin–Karp offers efficient rolling-window hashing and is particularly adaptable to multi-pattern search, but needs collision verification. Kasai constructs the LCP array in linear time **after** suffix-array construction. Overall, input characteristics and preprocessing overhead are as important as asymptotic bounds for interpreting benchmark results.
-
-## 10. Repository submission checklist
-
-1. Commit the Java sources, tests, results CSVs, plots, Python plotting script, and this README.
-2. Make meaningful commits (for example: `Implement DP algorithms`, `Add three matchers and Kasai`, `Add edge-case tests`, `Benchmark and document results`).
-3. Run `./run.sh test` and, if desired, regenerate experiments/plots before pushing.
-4. Push the repository to GitHub and submit its **repository URL in Moodle**. This project archive does not automatically create a GitHub repository or submit to Moodle.
